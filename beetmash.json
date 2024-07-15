@@ -1,0 +1,31 @@
+{
+	"app_url_base": "gs://beet-misc",
+	"apps": [
+		{
+			"name": "simple_app",
+			"version": "0.0.1"
+		}
+	],
+	"scenes": [
+		{
+			"name": "simple_scene",
+			"dependencies": [
+				{
+					"crate": "beetmash_template",
+					"name": "simple_environment",
+					"version": "0.0.2"
+				}
+			],
+			"demo": {
+				"app": {
+					"crate": "beetmash_template",
+					"name": "simple_app",
+					"version": "0.0.1"
+				}
+			}
+		},
+		{
+			"name": "simple_environment"
+		}
+	]
+}

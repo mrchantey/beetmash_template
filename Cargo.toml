@@ -1,6 +1,6 @@
 [package]
 name = "beetmash_template"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 description = "An example workflow for publishing Bevy apps and scenes to Beetmash."
 homepage = "https://beetmash.com/docs/beetmash"

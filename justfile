@@ -4,6 +4,9 @@ web-examples:= 'simple_app'
 publish:
 	cargo publish --allow-dirty
 
+patch:
+	cargo set-version --bump patch
+
 build-scenes:
 	cargo run --example build_scenes
 
