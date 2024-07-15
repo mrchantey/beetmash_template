@@ -1,0 +1,21 @@
+[package]
+name = "beetmash_template"
+version = "0.0.1"
+edition = "2021"
+description = "An example workflow for publishing Bevy apps and scenes to Beetmash."
+homepage = "https://beetmash.com/docs/beetmash"
+repository = "https://github.com/mrchantey/beetmash_template"
+keywords = ["bevy", "beet", "beetmash", "template", "demo"]
+categories = [
+	"science::robotics",
+	"game-development",
+	"simulation",
+	"wasm",
+	"embedded",
+]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+beet = "0.0.3"
+bevy = "0.14.0"

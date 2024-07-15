@@ -1,0 +1,14 @@
+app_url_base = "gs://beet-misc/beetmash_template"
+
+[[app]]
+name = "simple_app"
+
+[[scene]]
+name = "simple_scene"
+	[[scene.dependencies]]
+	crate = "beetmash_template"
+	version = "0.0.1"
+	name = "simple_environment"
+
+[[scene]]
+name = "simple_environment"
